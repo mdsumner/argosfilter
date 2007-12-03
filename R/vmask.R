@@ -2,18 +2,26 @@
 
 vmask<-function(lat, lon, dtime, vmax)
 {
-row_id<-1:length(lat);row_id
-v<-numeric(length(lat));v
+row_id<-1:length(lat)
+v<-numeric(length(lat))
 dset<-data.frame(row_id,lat,lon,dtime,v,row.names = NULL)
 
 dset2<-dset
 n_int=0
-maxi=10
+maxi=100
+
+ascending=TRUE
+curr_peak=0
+curr_null=0
+n_peaks=0
+pos_peak=0
+
+
 while(maxi>vmax){
 	n_int=n_int+1 # number of iteractions
-	lat<-dset2$lat;lat
-	lon<-dset2$lon;lon
-	dtime<-dset2$dtime;dtime
+	lat<-dset2$lat
+	lon<-dset2$lon
+	dtime<-dset2$dtime
 
 	#-----------------------------------------------------
 	#calculate velocities v[i]
@@ -51,9 +59,7 @@ while(maxi>vmax){
 	
 	}
 	# check last point, if still going uphill include it as a maximum
-	if (ascending)
-	pos_peak=cbind(pos_peak,i);
-	n_peaks=n_peaks+1
+	if (ascending) { pos_peak=cbind(pos_peak,i);n_peaks=n_peaks+1 }
 	
 	n_peaks
 	pos_peak

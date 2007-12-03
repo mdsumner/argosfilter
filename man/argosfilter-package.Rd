@@ -14,9 +14,9 @@ animals, where Argos locations are predominantly of low-quality.
 \tabular{ll}{
 Package: \tab argosfilter\cr
 Type: \tab Package\cr
-Version: \tab 0.4\cr
-Date: \tab 2007-08-14\cr
-License: \tab GPL (GNU Public Licence) version 2 or later\cr
+Version: \tab 0.5\cr
+Date: \tab 2007-12-03\cr
+License: \tab GPL (>=2)\cr
 }
 
 }
