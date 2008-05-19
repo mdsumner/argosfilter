@@ -65,14 +65,14 @@ while(maxi>vmax){
 	pos_peak
 	length(pos_peak)
 	pos_peak=pos_peak[-1]
-	pos_peak
-	length(pos_peak)
-	v[1:30]
+	#pos_peak
+	#length(pos_peak)
+	#v[1:30]
 
 	#-----------------------------------------------------
 	# remove peaks where v[i]>vmax
-	pos_peak
-	length(pos_peak)
+	#pos_peak
+	#length(pos_peak)
 	v[pos_peak]
 	if (max(v[pos_peak])>vmax){
 		peaks_to_remove<-pos_peak[which(v[pos_peak]>vmax)];peaks_to_remove
@@ -80,20 +80,20 @@ while(maxi>vmax){
 		dset2<-dset2[peaks_to_remove*-1,]
 		dset2[1:12,]
 		}
-	maxi<-max(dset2$v);maxi
+	maxi<-max(dset2$v);#maxi
 
 }
-n_int
-length(dset2$lat)
+#n_int
+#length(dset2$lat)
 	
 # Find removed rows
-not_rem<-match(dset2$row_id,dset$row_id);not_rem
-removed<-dset[not_rem*-1,];removed
-vmask<-sda_filter<-character(length(dset$lat));vmask
-vmask[not_rem*-1]<-"removed";vmask
-vmask[not_rem]<-"not";vmask
-extremes<-c(1,2,length(dset$lat)-1,length(dset$lat));extremes
-vmask[extremes]<-"end_location";sda_filter
+not_rem<-match(dset2$row_id,dset$row_id);#not_rem
+removed<-dset[not_rem*-1,];#removed
+vmask<-sda_filter<-character(length(dset$lat));#vmask
+vmask[not_rem*-1]<-"removed";#vmask
+vmask[not_rem]<-"not";#vmask
+extremes<-c(1,2,length(dset$lat)-1,length(dset$lat));#extremes
+vmask[extremes]<-"end_location"
 vmask
 }
 

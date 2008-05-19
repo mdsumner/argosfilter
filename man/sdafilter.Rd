@@ -2,7 +2,7 @@
 \alias{sdafilter}
 \title{Filter Argos locations}
 \description{
-This function filters location data obtained from Argos, using the Freitas et al. (submitted) algorithm.
+This function filters location data obtained from Argos, using the Freitas et al. (2008) algorithm.
 }
 \usage{
 sdafilter(lat, lon, dtime, lc, vmax = 2, ang = c(15, 25), distlim = c(2500, 5000))
@@ -18,7 +18,7 @@ sdafilter(lat, lon, dtime, lc, vmax = 2, ang = c(15, 25), distlim = c(2500, 5000
   \item{distlim}{ lengths of the above spikes, in meters. Default is c(2500,5000)}
 }
 \details{
- Locations are filtered using the algorithm described in Freitas et al. (submitted).
+ Locations are filtered using the algorithm described in Freitas et al. (2008).
  The algorithm first removes all locations with location class Z (-9), which are
  the points for which the location process failed. Then all locations requiring
  unrealistic swimming speeds are removed, using the MacConnell et al. (1992) algorithm,
@@ -39,14 +39,14 @@ sdafilter(lat, lon, dtime, lc, vmax = 2, ang = c(15, 25), distlim = c(2500, 5000
   of the track where the algorithm could not be applied).
 }
 \references{
-Freitas, C., Lydersen, C., Ims, R.A., Fedak, M.A. and Kovacs, K.M. (Submitted) A simple new 
-algorithm to filter marine mammal Argos locations \emph{Marine Mammal Science}.
+Freitas, C., Lydersen, C., Ims, R.A., Fedak, M.A. and Kovacs, K.M. (2008) A simple new 
+algorithm to filter marine mammal Argos locations \emph{Marine Mammal Science} 24:315-325.
 
 McConnell, B.J., Chambers, C. and Fedak, M.A. (1992) Foraging ecology of southern
 elephant seals in relation to the bathymetry and productivity of the Southern Ocean.
 \emph{Antarctic Science} 4:393-398.
 }
-\author{Carla Freitas}
+\author{Carla Freitas, with contributions from Anne Goarant and Catriona MacLeod}
 \note{}
 
 \seealso{\code{\link{vmask}}} 

@@ -12,6 +12,5 @@ for (i in 1:(length(lat)-1)) {
 	dist.next[i]<-dist.next[i]*1852 # dist.next is given in m
 	}
 }
-dist.next[1:10]
 dist.next
 }

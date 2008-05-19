@@ -12,7 +12,6 @@ for (i in 2:length(lat)) {
 	dist.prev[i]<-dist.prev[i]*1852 # dist.prev is given in m
 	}
 }
-dist.prev[1:10]
 dist.prev
 }
 
