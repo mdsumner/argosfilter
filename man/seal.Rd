@@ -16,9 +16,7 @@
     \item{\code{lc}}{a numeric vector with location classes LC (-9 refers to LC Z, -2 to LC B and -1 to LC A)}
   }
 }
-\details{}
-\source{}
-\references{}
+
 \examples{
 data(seal)
 lat<-seal$lat

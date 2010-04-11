@@ -36,7 +36,7 @@ elephant seals in relation to the bathymetry and productivity of the Southern Oc
 \emph{Antarctic Science} 4:393-398.
 }
 \author{Carla Freitas}
-\note{}
+
 \seealso{\code{\link{sdafilter}}} 
 
 \examples{
@@ -53,7 +53,5 @@ mfilter<-vmask(lat,lon,dtime,2)
 plot(lon,lat,col="lightgrey",type="l",xlim=c(5,18), ylim=c(77.1,79.1),xlab="Longitude",ylab="Latitude")
 lines(lon[which(mfilter=="not")],lat[which(mfilter=="not")],col="darkgreen")
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{}
-\keyword{}% __ONLY ONE__ keyword per line
+
+\keyword{spatial}

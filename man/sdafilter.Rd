@@ -47,7 +47,6 @@ elephant seals in relation to the bathymetry and productivity of the Southern Oc
 \emph{Antarctic Science} 4:393-398.
 }
 \author{Carla Freitas, with contributions from Anne Goarant and Catriona MacLeod}
-\note{}
 
 \seealso{\code{\link{vmask}}} 
 \examples{
@@ -74,9 +73,6 @@ lines(lon[which(cfilter=="not")],lat[which(cfilter=="not")],col="blue")
 table(lc,mfilter)
 table(lc,cfilter)
 
-
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{}
-\keyword{}% __ONLY ONE__ keyword per line
+
+\keyword{spatial}

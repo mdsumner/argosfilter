@@ -36,8 +36,7 @@ Zwillinger D. (2003) \emph{Standard Mathematical Tables and Formulae}, 31st edit
 Chapman & Hall/CRC, Boca Raton, FL.
 }
 \author{Carla Freitas}
-\note{}
-}
+
 \seealso{\code{\link{bearing}}} 
 \examples{
 # Distance between two geographical locations
@@ -52,7 +51,5 @@ lat<-rnorm(10,80)
 lon<-rnorm(10,20)
 distanceTrack(lat,lon)
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{}
-\keyword{}% __ONLY ONE__ keyword per line
+
+\keyword{spatial}

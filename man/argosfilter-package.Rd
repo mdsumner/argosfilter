@@ -14,8 +14,8 @@ animals, where Argos locations are predominantly of low-quality.
 \tabular{ll}{
 Package: \tab argosfilter\cr
 Type: \tab Package\cr
-Version: \tab 0.6\cr
-Date: \tab 2008-05-19\cr
+Version: \tab 0.62\cr
+Date: \tab 2010-04-11\cr
 License: \tab GPL (>=2)\cr
 }
 
@@ -25,13 +25,4 @@ Carla Freitas <carla@npolar.no>
 Maintainer: Carla Freitas <carla@npolar.no>
 }
 
-\references{
-
-}
-
 \keyword{ package }
-\seealso{
-}
-\examples{
-
-}
