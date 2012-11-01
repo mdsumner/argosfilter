@@ -15,14 +15,14 @@ animals, where Argos locations are predominantly of low-quality.
 Package: \tab argosfilter\cr
 Type: \tab Package\cr
 Version: \tab 0.62\cr
-Date: \tab 2010-04-11\cr
+Date: \tab 2012-11-01\cr
 License: \tab GPL (>=2)\cr
 }
 
 }
 \author{
-Carla Freitas <carla@npolar.no>
-Maintainer: Carla Freitas <carla@npolar.no>
+Carla Freitas <carla.freitas@imr.no>
+Maintainer: Carla Freitas <carla.freitas@imr.no>
 }
 
 \keyword{ package }

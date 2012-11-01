@@ -1,5 +1,5 @@
-4815280bb9e1e970b76d935214a377ea *DESCRIPTION
-9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
+9bde89e13b0b27e011cab02c780b00bd *DESCRIPTION
+87b6ac4a5bdd4b446f315cbc042bafd1 *NAMESPACE
 b52c3edbae1ca4ad360eaf178a09ca2f *R/bearing.R
 3e10803505b015c519f992372cbe03a5 *R/bearingTrack.R
 fe28944872c09a22995b0c2304ec9b03 *R/dist.next.R
@@ -12,7 +12,7 @@ a70eec621f34ac354eee3ae7b864911f *R/dist.prev.R
 5ffdf4360afc3aafde79ed3ff3276059 *R/sdafilter.R
 7c5cc0746785392d9519e04969d96e98 *R/vmask.R
 421013d250fd729daeb3bc74b637396f *data/seal.rda
-df871fed34bec06d01409aefdc5a6466 *man/argosfilter-package.Rd
+688db37dd579201b5df7ec6290b5fa5b *man/argosfilter-package.Rd
 c7b1ccfac1483b220b2caf3fae3c9edb *man/bearing.Rd
 12bcc6dd9882adf6b920c5a99533071b *man/dist.next.Rd
 14ddd3994ae35dd1ece1e881ca7dc6d6 *man/dist.prev.Rd
