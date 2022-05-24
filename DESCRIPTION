@@ -1,7 +1,7 @@
 Package: argosfilter
 Type: Package
 Title: Argos locations filter
-Version: 0.63
+Version: 0.63.9001
 Date: 2012-11-01
 Author: Carla Freitas
 Maintainer: Carla Freitas <carla.freitas@imr.no>
